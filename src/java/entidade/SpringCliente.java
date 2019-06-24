@@ -5,14 +5,14 @@ import java.io.Serializable;
 public class SpringCliente implements Serializable{
     private static final long serialVersionUID = 1L;
     
-    int id;
-    String nome;
-    int idade;
-    String rua;
-    String bairro;
-    String cidade;
-    int fixo;
-    int cel;
+   private int id;
+   private String nome;
+   private int idade;
+   private String rua;
+   private String bairro;
+   private String cidade;
+   private int fixo;
+   private int cel;
 
     public SpringCliente() {
     }
